@@ -5,5 +5,10 @@ const root = new Vue({
     data: {
         message: 'Hello Word!',
         img: '',
+    },
+    methods: {
+        saluta() {
+            alert('Ciao!');
+        }
     }
-})
+});
