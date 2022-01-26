@@ -4,6 +4,6 @@ const root = new Vue({
     el: '#root',
     data: {
         message: 'Hello Word!',
-        img: '',
+        img: 'URL',
     }
 })
